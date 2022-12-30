@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  background-image: url(./images/맨홀뚜껑들고있는.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-box {
+  background-color: rgb(173, 173, 173);
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 16px;
+  margin-bottom: 0;
+  text-shadow: 2px 0 yellow;
+}
+
+
+.A {
+  width: 75px;
+  border: 3PX solid rgb(173, 173, 173);
+  background-color: rgb(173, 173, 173);
+  font-size: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.mm {
+  width: 51px;
+  border: 3px solid rgb(68, 68, 68);
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.mm:hover {
+  background-color: yellow;
+  border-color: rgb(194, 194, 0);
+}

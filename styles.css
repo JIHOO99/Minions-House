@@ -1,0 +1,167 @@
+  body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-box {
+  background-color: rgb(173, 173, 173);
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 16px;
+  margin-bottom: 0;
+  text-shadow: 2px 0 yellow;
+}
+
+
+.A {
+  width: 75px;
+  border: 3PX solid rgb(173, 173, 173);
+  background-color: rgb(173, 173, 173);
+  font-size: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+
+.mm {
+  width: 51px;
+  border: 3px solid rgb(68, 68, 68);
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.mm:hover {
+  background-color: yellow;
+  border-color: rgb(194, 194, 0);
+}
+
+.text-box {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.background-img {
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+  background-image: url('./images/KakaoTalk_20221227_102107582.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  color: black;
+  text-align: center;
+  display: block;
+  display: table;
+}
+
+.더보기 {
+  width: 40px;
+  height: 21px;
+  border: 2px solid yellow;
+  background-color: gray;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+
+.더보기:hover {
+  background-color: yellow;
+}
+
+.side {
+  display: inline-block;    
+  width: 200px;
+  border: 10px solid rgb(173, 173, 173);
+  background-color: yellow;
+  box-shadow: 5px 5px 10px#000;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  top: 200px;
+  right: 100px;
+}
+
+.big-box {
+  margin-top: 280px;
+  position: absolute;
+  top: 600px;
+  left: 900px;
+  text-align: center;
+}
+
+.mini-box {
+  width: 500px;
+  text-align: center;
+  border: 10px solid rgb(173, 173, 173);
+  background-color: yellow;
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+.att {
+  margin-top: 800px;
+  display: flex;
+  height: 600px;
+  background-color: yellow;
+  justify-content: center;
+  align-items: center;
+}
+
+.하트 {
+  background-size: 400px;
+  width:800px;
+  height: 650px;
+  background-image: url(./images/하트\ 미니언즈.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 650px;
+}
+.바닥 {
+  width: 100%;
+  background-color: rgb(173, 173, 173);
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 2px 0 yellow;
+  color: rgb(68, 68, 68);
+}
+
+.바닥 h2 {
+  margin-left: 30px;
+}
+
+.sns {
+  margin-right: 50px;
+}
+
+.sns i {
+  font-size: 30px;
+  margin-right: 20px;
+  color: rgb(68, 68, 68);
+  /* text-shadow: 2px 0 yellow; */
+}
+
+.sns i:hover {
+  color: yellow;
+  border-color: rgb(194, 194, 0);
+}
+
+.up {
+  color: black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  font-size: 400px;
+}
